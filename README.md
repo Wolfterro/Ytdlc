@@ -6,7 +6,7 @@
 ###### Basta inserir o formato desejado e as ID's dos vídeos que deseja, não sendo necessária a URL inteira.
 ###### Possuo [scripts](https://github.com/Wolfterro/Youtube-DL-Script) que executam a mesma operação, mas decidi criar um programa em C ao invés disso.
 ###### É necessário possuir o youtube-dl instalado e reconhecido como comando interno para que o programa funcione!
-###### Também é necessário possuir o programa ffmpeg ou libav-tools instalado para que o programa possa converter o vídeo para o formato desejado.
+###### Também é necessário possuir o programa [ffmpeg](https://www.ffmpeg.org/) ou libav-tools instalado para que o programa possa converter o vídeo para o formato desejado.
 ###### O programa é bem simples e pode ser utilizado com os seguintes comandos:
 
       Comandos:
