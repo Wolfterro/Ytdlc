@@ -27,13 +27,13 @@
 
 ###### Você pode baixar o programa já compilado (x64) e executá-lo com o comando abaixo:
 
-      wget 'https://raw.github.com/Wolfterro/Projetos-em-C/master/ytdlc'
+      wget 'https://raw.github.com/Wolfterro/Ytdlc/master/ytdlc'
       chmod +x ytdlc
       ./ytdlc [Formato] [ID do vídeo] ...
 
 ###### Você também poderá compilar o programa em seu sistema através do comando abaixo (é necessário possuir o GCC):
 
-      wget 'https://raw.github.com/Wolfterro/Projetos-em-C/master/src/ytdlc.c'
+      wget 'https://raw.github.com/Wolfterro/Ytdlc/master/src/ytdlc.c'
       gcc ytdlc.c -o ytdlc
       ./ytdlc [Formato] [ID do vídeo] ...
 
