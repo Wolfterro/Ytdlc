@@ -1,0 +1,26 @@
+id ICON "ytdlc-icon.ico"
+
+1 VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "041604B0"
+    BEGIN
+      VALUE "CompanyName", "Wolfterro"
+      VALUE "FileDescription", "Download de Videos e Musicas com youtube-dl"
+      VALUE "FileVersion", "1.0"
+      VALUE "InternalName", "ytdlc"
+      VALUE "LegalCopyright", "Wolfterro"
+      VALUE "OriginalFilename", "ytdlc.exe"
+      VALUE "ProductName", "Ytdlc"
+      VALUE "ProductVersion", "1.0"
+    END
+  END
+
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x416, 1200
+  END
+END
