@@ -37,9 +37,10 @@
       gcc ytdlc.c -o ytdlc
       ./ytdlc [Formato] [ID do vídeo] ...
 
-###### Existe também a versão para Windows, e você pode baixá-lo já compilado (x86) clicando [aqui!]()
+###### Existe também a versão para Windows, e você pode baixá-lo já compilado (x86) clicando [aqui!](https://raw.github.com/Wolfterro/Ytdlc/master/Win/bin/ytdlc.exe)
 
-###### Observação: Alguns anti-virus podem acusar o programa compilado para Windows como um possível Trojan, para evitar este problema e também assegurar de que não tenho intenção de disseminar qualquer tipo de vírus, recomendo fortemente que utilize o [MinGW](http://www.mingw.org/) para compilar o programa em seu computador. Você poderá utilizar os comandos abaixo (requer o MinGW):
+###### Observação: Alguns anti-virus podem acusar o programa compilado para Windows como um possível Trojan. 
+###### Para evitar este problema e também assegurar de que não tenho intenção de disseminar qualquer tipo de vírus, recomendo fortemente que utilize o [MinGW](http://www.mingw.org/) para compilar o programa em seu computador. Você poderá utilizar os comandos abaixo (requer o MinGW):
 
       windres ytdlc.rc -O coff -o ytdlc.res
       mingw32-gcc -o ytdlc.exe ytdlc.c ytdlc.res
